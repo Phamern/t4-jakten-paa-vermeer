@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Jakten på Vermeer</title>
+</head>
+<!--  -->
+<body onload="load()">
+  <div class="slide-wrapper">
+    <section class="slides">
+      <section class="slide" id="slide-1">
+        <section class=" pentomino-rectangel writer">
+          <h1 class="bigheadline">Blue</h1>
+          <h1 class="bigheadline">Balliett</h1>
+          <div class="grid_text">
+            <p class="float-left">Balliett er født og oppvokst i New York. Hele sitt liv har hun likt å besøke
+              Metropolitan Museum of Art og The Frick Collection på vei hjemfra skole eller jobb. Hun har alltid likt
+              mysterier som ikke lar seg løse ved hjelp av vanlige metoder.</p>
+            <p class="float-right">Balliett har studert kunsthistorie og hun bor nå i Chicago hvor hun underviser på
+              University of Chicago</p>
+            <img class="pentominos" src="img/writer_pentomino.png" alt="">
+            <img class="overlay-mobil" src="img/mobil_forfatter_rectangel.png" alt="">
+          </div>
+        </section>
+      </section>
+      <section class="slide" id="slide-2">
+        <section id="pentomino-rectangel-writer">
+          <img class="overlay" src="img/forfatter_rectangel.png" alt="">
+          <img class="overlay-mobil" src="img/mobil_forfatter_rectangel.png" alt="">
+          <img onclick="iPentomino();" src="img/pentominos/i_pentomino.png" alt="Pentomino bokstav i" class="ipentomino">
+          <img onclick="fPentomino();" src="img/pentominos/f_pentomino.png" alt="Pentomino bokstav f" class="fpentomino">
+          <img onclick="vPentomino();" src="img/pentominos/v_pentomino.png" alt="Pentomino bokstav v" class="vpentomino">
+          <h1 class="bigheadline">t:1 l:2 t:2 t:1 f:1 v:2 v:2 p:1 t:r</h1>
+          <p class="quote">“Ikke la deg skremme av ekspertene. Stol på dine egne instinkter. Ikke vær redd for å
+            betvile alt du har lært, eller alt du ble fortalt at du skulle se eller tro.”</p>
+
+        </section>
+      </section>
+      <section class="slide" id="slide-3">
+        <section class=" pentomino-rectangel code">
+          <h1 class="bigheadline">Kodespråket</h1>
+          <img class="page-elements" src="img/Kodepento.png" alt="">
+          <img class="page-elements2" src="img/kodepentosystem.png" alt="">
+          <p class="float-left">Pentominoenes kodespråk er å finne på nettsiden.</p>
+          <p class="float-right">Ved litt leting og utforskning vil du kunne ha bruk for dette systemet.</p>
+        </section>
+        <section id="pentomino-rectangel-code">
+          <img onclick="pPentomino();" src="img/pentominos/p_pentomino.png" alt="" class="ppentomino">
+          <img onclick="lPentomino();" src="img/pentominos/l_pentomino.png" alt="" class="lpentomino">
+          <img onclick="nPentomino();" src="img/pentominos/n_pentomino.png" alt="" class="npentomino">
+          <h1 class="bigheadline">y:1 l:2 n:1 p:1</h1>
+          <p class="quote">“Kanskje det er sånn at malerier flyter inn i tankene dine av seg selv, litt som flygende
+            frosker og mennesker som forsvinner?”</p>
+          <img class="overlay" src="img/code_pentomino.png" alt="">
+          <img class="overlay-mobil" src="img/mobil_kode_rectangel.png" alt="">
+        </section>
+        <section id="pentomino-rectangel-start">
+          <div></div>
+          <div>
+            <h1>Jakten på Vermeer</h1>
+            <h2>av Blue Balliett</h2>
+          </div>
+          <a class="buy" href="https://nettbutikk.bokbyen-skagerrak.no/productdetails.php?product=74291" target="blank">Kjøp</a>
+          <div class="invisible"></div>
+          <div class="grid-index" id="g1">
+            <div class="box-1"><img src="img/ladywriting/ladywriting_01.jpg" alt=""><img class="i" src="img/Blueballiett/blueballiett_forfatter_01.jpg"
+                alt=""></div>
+            <div class="box-2"><img src="img/ladywriting/ladywriting_02.jpg" alt=""><img class="p" src="img/charlesfort/charlesfort_1.jpg"
+                alt=""></div>
+            <div class="box-3"><img src="img/ladywriting/ladywriting_03.jpg" alt=""><img class="p" src="img/charlesfort/charlesfort_2.jpg"
+                alt=""></div>
+            <div class="box-4"><img src="img/ladywriting/ladywriting_04.jpg" alt=""><img class="y" src="img/calderogpetra/utdrag_calderogpetra_04.jpg"
+                alt=""></div>
+            <div class="box-5"><img src="img/ladywriting/ladywriting_05.jpg" alt=""><img class="y" src="img/calderogpetra/utdrag_calderogpetra_05.jpg"
+                alt=""></div>
+            <div class="box-6"><img src="img/ladywriting/ladywriting_06.jpg" alt=""><img class="y" src="img/calderogpetra/utdrag_calderogpetra_06.jpg"
+                alt=""></div>
+            <div class="box-7"><img src="img/ladywriting/ladywriting_07.jpg" alt=""><img class="y" src="img/calderogpetra/utdrag_calderogpetra_07.jpg"
+                alt=""></div>
+            <div class="box-8"><img src="img/ladywriting/ladywriting_08.jpg" alt=""><img class="v" src="img/Blueballiett/blueballiett_forfatter_08.jpg"
+                alt=""></div>
+            <div class="box-9"><img src="img/ladywriting/ladywriting_09.jpg" alt=""><img class="v" src="img/Blueballiett/blueballiett_forfatter_09.jpg"
+                alt=""></div>
+            <div class="box-10"><img src="img/ladywriting/ladywriting_10.jpg" alt=""><img class="v" src="img/Blueballiett/blueballiett_forfatter_10.jpg"
+                alt=""></div>
+            <div class="box-11"><img src="img/ladywriting/ladywriting_11.jpg" alt=""><img class="i" src="img/Blueballiett/blueballiett_forfatter_11.jpg"
+                alt=""></div>
+            <div class="box-12"><img src="img/ladywriting/ladywriting_12.jpg" alt=""><img class="p" src="img/charlesfort/charlesfort_3.jpg"
+                alt=""></div>
+            <div class="box-13"><img src="img/ladywriting/ladywriting_13.jpg" alt=""><img class="p" src="img/charlesfort/charlesfort_4.jpg"
+                alt=""></div>
+            <div class="box-14"><img src="img/ladywriting/ladywriting_14.jpg" alt=""><img class="x" src="img/Handling/petracalder_14.gif"
+                alt=""></div>
+            <div class="box-15"><img src="img/ladywriting/ladywriting_15.jpg" alt=""><img class="y" src="img/calderogpetra/utdrag_calderogpetra_15.jpg"
+                alt=""></div>
+            <div class="box-16"><img src="img/ladywriting/ladywriting_16.jpg" alt=""><img class="l" src="img/charlesfort/charlesfort_5.jpg"
+                alt=""></div>
+            <div class="box-17"><img src="img/ladywriting/ladywriting_17.jpg" alt=""><img class="l" src="img/charlesfort/charlesfort_6.jpg"
+                alt=""></div>
+            <div class="box-18"><img src="img/ladywriting/ladywriting_18.jpg" alt=""><img class="l" src="img/charlesfort/charlesfort_7.jpg"
+                alt=""></div>
+            <div class="box-19"><img src="img/ladywriting/ladywriting_19.jpg" alt=""><img class="l" src="img/charlesfort/charlesfort_8.jpg"
+                alt=""></div>
+            <div class="box-20"><img src="img/ladywriting/ladywriting_20.jpg" alt=""><img class="v" src="img/Blueballiett/blueballiett_forfatter_20.jpg"
+                alt=""></div>
+            <div class="box-21"><img src="img/ladywriting/ladywriting_21.jpg" alt=""><img class="i" src="img/Blueballiett/blueballiett_forfatter_21.jpg"
+                alt=""></div>
+            <div class="box-22"><img src="img/ladywriting/ladywriting_22.jpg" alt=""><img class="p" src="img/charlesfort/charlesfort_9.jpg"
+                alt=""></div>
+            <div class="box-23"><img src="img/ladywriting/ladywriting_23.jpg" alt=""><img class="x" src="img/Handling/petracalder_23.gif"
+                alt=""></div>
+            <div class="box-24"><img src="img/ladywriting/ladywriting_24.jpg" alt=""><img class="x" src="img/Handling/petracalder_24.gif"
+                alt=""></div>
+            <div class="box-25"><img src="img/ladywriting/ladywriting_25.jpg" alt=""><img class="x" src="img/Handling/petracalder_25.gif"
+                alt=""></div>
+            <div class="box-26"><img src="img/ladywriting/ladywriting_26.jpg" alt=""><img class="f" src="img/Blueballiett/blueballiett_forfatter_26.jpg"
+                alt=""></div>
+            <div class="box-27"><img src="img/ladywriting/ladywriting_27.jpg" alt=""><img class="z" src="img/Handling/petracalder_27.gif"
+                alt=""></div>
+            <div class="box-28"><img src="img/ladywriting/ladywriting_28.jpg" alt=""><img class="z" src="img/Handling/petracalder_28.gif"
+                alt=""></div>
+            <div class="box-29"><img src="img/ladywriting/ladywriting_29.jpg" alt=""><img class="l" src="img/charlesfort/charlesfort_10.jpg"
+                alt=""></div>
+            <div class="box-30"><img src="img/ladywriting/ladywriting_30.jpg" alt=""><img class="v" src="img/Blueballiett/blueballiett_forfatter_30.jpg"
+                alt=""></div>
+            <div class="box-31"><img src="img/ladywriting/ladywriting_31.jpg" alt=""><img class="i" src="img/Blueballiett/blueballiett_forfatter_31.jpg"
+                alt=""></div>
+            <div class="box-32"><img src="img/ladywriting/ladywriting_32.jpg" alt=""><img class="t" src="img/Handling/petracalder_32.gif"
+                alt=""></div>
+            <div class="box-33"><img src="img/ladywriting/ladywriting_33.jpg" alt=""><img class="w" src="img/calderogpetra/utdrag_calderogpetra_33.jpg"
+                alt=""></div>
+            <div class="box-34"><img src="img/ladywriting/ladywriting_34.jpg" alt=""><img class="x" src="img/Handling/petracalder_34.gif"
+                alt=""></div>
+            <div class="box-35"><img src="img/ladywriting/ladywriting_35.jpg" alt=""><img class="f" src="img/Blueballiett/blueballiett_forfatter_35.jpg"
+                alt=""></div>
+            <div class="box-36"><img src="img/ladywriting/ladywriting_36.jpg" alt=""><img class="f" src="img/Blueballiett/blueballiett_forfatter_36.jpg"
+                alt=""></div>
+            <div class="box-37"><img src="img/ladywriting/ladywriting_37.jpg" alt=""><img class="f" src="img/Blueballiett/blueballiett_forfatter_37.jpg"
+                alt=""></div>
+            <div class="box-38"><img src="img/ladywriting/ladywriting_38.jpg" alt=""><img class="z" src="img/Handling/petracalder_38.gif"
+                alt=""></div>
+            <div class="box-39"><img src="img/ladywriting/ladywriting_39.jpg" alt=""><img class="u" src="img/calderogpetra/utdrag_calderogpetra_39.jpg"
+                alt=""></div>
+            <div class="box-40"><img src="img/ladywriting/ladywriting_40.jpg" alt=""><img class="u" src="img/calderogpetra/utdrag_calderogpetra_40.jpg"
+                alt=""></div>
+            <div class="box-41"><img src="img/ladywriting/ladywriting_41.jpg" alt=""><img class="i" src="img/Blueballiett/blueballiett_forfatter_41.jpg"
+                alt=""></div>
+            <div class="box-42"><img src="img/ladywriting/ladywriting_42.jpg" alt=""><img class="t" src="img/Handling/petracalder_42.gif"
+                alt=""></div>
+            <div class="box-43"><img src="img/ladywriting/ladywriting_43.jpg" alt=""><img class="w" src="img/calderogpetra/utdrag_calderogpetra_43.jpg"
+                alt=""></div>
+            <div class="box-44"><img src="img/ladywriting/ladywriting_44.jpg" alt=""><img class="w" src="img/calderogpetra/utdrag_calderogpetra_44.jpg"
+                alt=""></div>
+            <div class="box-45"><img src="img/ladywriting/ladywriting_45.jpg" alt=""><img class="n" src="img/charlesfort/charlesfort_11.jpg"
+                alt=""></div>
+            <div class="box-46"><img src="img/ladywriting/ladywriting_46.jpg" alt="">
+              <img class="n" src="img/charlesfort/charlesfort_12.jpg" alt=""></div>
+            <div class="box-47"><img src="img/ladywriting/ladywriting_47.jpg" alt=""><img class="f" src="img/Blueballiett/blueballiett_forfatter_47.jpg"
+                alt=""></div>
+            <div class="box-48"><img src="img/ladywriting/ladywriting_48.jpg" alt=""><img class="z" src="img/Handling/petracalder_48.gif"
+                alt=""></div>
+            <div class="box-49"><img src="img/ladywriting/ladywriting_49.jpg" alt=""><img class="z" src="img/Handling/petracalder_49.gif"
+                alt=""></div>
+            <div class="box-50"><img src="img/ladywriting/ladywriting_50.jpg" alt=""><img class="u" src="img/calderogpetra/utdrag_calderogpetra_50.jpg"
+                alt=""></div>
+            <div class="box-51"><img src="img/ladywriting/ladywriting_51.jpg" alt=""><img class="t" src="img/Handling/petracalder_51.gif"
+                alt=""></div>
+            <div class="box-52"><img src="img/ladywriting/ladywriting_52.jpg" alt=""><img class="t" src="img/Handling/petracalder_52.gif"
+                alt=""></div>
+            <div class="box-53"><img src="img/ladywriting/ladywriting_53.jpg" alt=""><img class="t" src="img/Handling/petracalder_53.gif"
+                alt=""></div>
+            <div class="box-54"><img src="img/ladywriting/ladywriting_54.jpg" alt=""><img class="w" src="img/calderogpetra/utdrag_calderogpetra_54.jpg"
+                alt=""></div>
+            <div class="box-55"><img src="img/ladywriting/ladywriting_55.jpg" alt=""><img class="w" src="img/calderogpetra/utdrag_calderogpetra_55.jpg"
+                alt=""></div>
+            <div class="box-56"><img src="img/ladywriting/ladywriting_56.jpg" alt=""><img class="n" src="img/charlesfort/charlesfort_13.jpg"
+                alt=""></div>
+            <div class="box-57"><img src="img/ladywriting/ladywriting_57.jpg" alt=""><img class="n" src="img/charlesfort/charlesfort_14.jpg"
+                alt=""></div>
+            <div class="box-58"><img src="img/ladywriting/ladywriting_58.jpg" alt=""><img class="n" src="img/charlesfort/charlesfort_15.jpg"
+                alt=""></div>
+            <div class="box-59"><img src="img/ladywriting/ladywriting_59.jpg" alt=""><img class="u" src="img/calderogpetra/utdrag_calderogpetra_59.jpg"
+                alt=""></div>
+            <div class="box-60"><img src="img/ladywriting/ladywriting_60.jpg" alt=""><img class="u" src="img/calderogpetra/utdrag_calderogpetra_60.jpg"
+                alt=""></div>
+          </div>
+          <div></div>
+          <a class="mobilbuy" href="https://nettbutikk.bokbyen-skagerrak.no/productdetails.php?product=74291" target="blank">Kjøp</a>
+          <div></div>
+        </section>
+        <section id="pentomino-rectangel-story">
+          <img onclick="xPentomino();" src="img/pentominos/x_pentomino.png" alt="" class="xpentomino">
+          <img onclick="tPentomino();" src="img/pentominos/t_pentomino.png" alt="" class="tpentomino">
+          <img onclick="zPentomino();" src="img/pentominos/z_pentomino.png" alt="" class="zpentomino">
+          <h1 class="bigheadline">v:1 f:1 i:2 n:1 z:1 w:1 i:2 u:1</h1>
+          <p class="quote">“Jeg lurer på om det finnes en eller annen hemmelig kode
+            i bildene hans som ingen har oppdaget”</p>
+          <img class="overlay" src="img/handling_rectangel.png" alt=""><img class="overlay-mobil" src="img/mobil_handling_rectangel.png"
+            alt="">
+        </section>
+        <section class="pentomino-rectangel story">
+          <h1 class="bigheadline">Jakten</h1>
+          <h1 class="bigheadline">på</h1>
+          <h1 class="bigheadline">Vermeer</h1>
+          <div class="grid_text">
+            <p class="float-left">En natt får tre forskjellige mennesker et mystisk brev på døren. Brevet forteller at
+              avsenderen er i stor lengsel etter deres hjelp, men ber dem ikke ta kontakt med politiet.</p>
+            <p class="float-right">Calder og Petra går i syvende klasse og er begge to introverte ungersom begge har en
+              stor fascinasjon for gåter og mysterier. Når deres nye lærer, Isabel, gir klassen en oppgave om å
+              analysere et kunstverk, starter et vennskap mellom Calder og Petra. Og når et sjeldent Vermeer-maleri
+              blir stjålet, tar de i skjul på seg oppdraget med å løse hvem som kan ha stjålet det.</p>
+            <p class="float-left-last">I et univers av forsvinninger, pentominoer og et hav av uforklarlige
+              tilfeldigheter forsvinner man inn og tar del i jakten på å finne det stjålne maleriet <em>Kvinne som
+                skriver.</em>
+            </p>
+          </div>
+          <img class="pentominos" src="img/story_pentomino.png" alt="">
+          <img class="overlay-mobil" src="img/mobil_utdrag_rectangel.png" alt="">
+        </section>
+      </section>
+      <section class="slide" id="slide-4">
+        <section id="pentomino-rectangel-excerpt">
+          <h1 class="bigheadline">i:1 t:2 p:1 x:2 p:1 v:2</h1>
+          <img onclick="yPentomino();" src="img/pentominos/y_pentomino.png" alt="" class="ypentomino">
+          <img onclick="wPentomino();" src="img/pentominos/w_pentomino.png" alt="" class="wpentomino">
+          <img onclick="uPentomino();" src="img/pentominos/u_pentomino.png" alt="" class="upentomino">
+          <p class="quote">“En tolvtedelssjanse for at det skulle være en V.
+            Tror du det er en tilfeldighet?” </p>
+          <img class="overlay" src="img/utdrag_rectangel.png" alt="">
+          <img class="overlay-mobil" src="img/mobil_utdrag_rectangel.png" alt="">
+        </section>
+      </section>
+      <section class="slide" id="slide-5">
+        <section class="pentomino-rectangel utdrag">
+          <h1 class="bigheadline">Alle tre mottok samme brev:</h1>
+          <div class="grid_text">
+            <p class="float-left">Kjære venn, Jeg trenger din hjelp til å avsløre en forbrytelse som nå er flere hundre
+              årgammel. En av verdens største malere lider fortsatt under denne forbrytelsen. Fordi kunsteksperter og
+              andre autoriteter ikke er modige nok til å rette opp feilen, har jeg selv påtatt meg ansvaret for å
+              avsløre
+              sannheten. Jeg har valgt deg som min hjelper fordi du har et kresent blikk, en våken intelligens og evnen
+              til å tenke annerledes.</p>
+            <p class="float-right">  Dersom du ønsker å hjelpe meg, vil du få en stor belønning. Dette kan bli farlig.
+              Du
+              må ikke vise dette brevet til noen. To andre mennesker i verden har fått et likt brev nå i natt. Selv om
+              dere tre jeg har valgt ut kanskje aldri vil møtes, kommer dere likevel til å samarbeide på måter ingen av
+              oss kan forutse ennå.  Hvis du viser dette brevet til politiet, setter du ditt eget liv i stor fare.
+               Etter
+              hvert kommer du til å skjønne hva du skal gjøre. Jeg ønsker deg lykke til i jakten på rettferdigheten.</p>
+          </div>
+          <h1 class="bigheadline">Brevet var ikke undertegnet,
+            og det hadde ingen avsenderadresse.</h1>
+          <img class="pentominos" src="img/utdrag_pentomino.png" alt="">
+          <img class="overlay-mobil" src="img/mobil_utdrag_rectangel.png" alt="">
+        </section>
+      </section>
+    </section>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
